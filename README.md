@@ -1,5 +1,5 @@
 # OWASP PDF 5 Release Repository
-## OWASP PDF OWASP PDF v5.0.0_poc
+## OWASP PDF v5.0.0_poc
 
 To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
@@ -17,7 +17,7 @@ To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
 6. Run `./owasp_pdf -v` in the terminal window to verify the installation.
 
-7. Run `./owasp_pdf --translate -y -l COE_en-US` in your Mac terminal window and verify a sample AISVS PDF is built.
+7. Run `./owasp_pdf --translate -y -l COE_en-US` in the terminal window and verify a sample AISVS PDF is built.
 
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
