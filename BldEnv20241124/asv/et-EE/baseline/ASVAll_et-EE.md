@@ -2686,12 +2686,3 @@ Tööriistad kasutaja sisendi käsitlemiseks ja valideerimiseks.
 
 ---
 
-## C1 koolitusandmete haldus ja kallutatusjuhtimine
-
-### C1.1 Treeningandmete päritolu
-
-Hoidke kõigi andmekogumite tõendatav varude nimekiri, aktsepteerige ainult usaldusväärseid allikaid ning logige iga muudatus auditeeritavuse tagamiseks.
-
- #1.1.1    Level: 1    Role: D/V
- Kontrollige, et oleks peetud ajakohast loendit kõigist koolitusandmete allikatest (päritolu, haldaja/omanik, litsents, kogumismeetod, mõeldud kasutuspiirangud ja töötlemise ajalugu).
-

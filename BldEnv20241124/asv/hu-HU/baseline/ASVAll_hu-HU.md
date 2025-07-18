@@ -2686,12 +2686,3 @@ Eszközök a felhasználói bevitel kezelésére és érvényesítésére.
 
 ---
 
-## C1 Képzési Adatkezelés és Elfogultságkezelés
-
-### C1.1 Képzési adatok származási helye
-
-Tartson fenn ellenőrizhető készletet az összes adatállományról, fogadjon el csak megbízható forrásokat, és rögzítsen minden változást az ellenőrizhetőség érdekében.
-
- #1.1.1    Level: 1    Role: D/V
- Ellenőrizze, hogy naprakész készlet áll rendelkezésre minden edzési adatok forrásáról (eredet, kezelő/tulajdonos, licenc, gyűjtési módszer, tervezett felhasználási korlátozások és feldolgozási előzmények).
-

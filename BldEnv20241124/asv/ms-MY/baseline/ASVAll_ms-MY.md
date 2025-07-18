@@ -2686,12 +2686,3 @@ Alat untuk mengendalikan dan mengesahkan input pengguna.
 
 ---
 
-## C1 Tadbir Urus Data Latihan & Pengurusan Bias
-
-### C1.1 Asal Usul Data Latihan
-
-Kekalkan inventori yang boleh disahkan bagi semua set data, terima hanya sumber yang dipercayai, dan rekodkan setiap perubahan untuk kebolehlaksanaan audit.
-
- #1.1.1    Level: 1    Role: D/V
- Sahkan bahawa inventori terkini bagi setiap sumber data latihan (asal, penyelia/pemilik, lesen, kaedah pengumpulan, had penggunaan yang dimaksudkan, dan sejarah pemprosesan) dikekalkan.
-

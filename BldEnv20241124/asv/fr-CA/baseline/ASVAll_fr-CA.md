@@ -2686,12 +2686,3 @@ Outils pour gérer et valider les entrées utilisateur.
 
 ---
 
-## Gouvernance des données d'entraînement C1 et gestion des biais
-
-### C1.1 Provenance des données d'entraînement
-
-Maintenez un inventaire vérifiable de tous les ensembles de données, n'acceptez que des sources fiables et consignez chaque modification pour assurer la traçabilité.
-
- #1.1.1    Level: 1    Role: D/V
- Vérifiez qu’un inventaire à jour de chaque source de données d’entraînement (origine, gestionnaire/propriétaire, licence, méthode de collecte, contraintes d’utilisation prévues et historique de traitement) est maintenu.
-

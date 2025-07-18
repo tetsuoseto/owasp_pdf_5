@@ -2686,12 +2686,3 @@ Kullanıcı girdilerini işlemek ve doğrulamak için araçlar.
 
 ---
 
-## C1 Eğitim Verisi Yönetimi ve Önyargı Yönetimi
-
-### C1.1 Eğitim Verisi Kökeni
-
-Tüm veri setlerinin doğrulanabilir bir envanterini tutun, yalnızca güvenilir kaynakları kabul edin ve denetlenebilirlik için her değişikliği kaydedin.
-
- #1.1.1    Level: 1    Role: D/V
- Her eğitim veri kaynağının (kaynak, sorumlu/sahip, lisans, toplama yöntemi, amaçlanan kullanım kısıtlamaları ve işleme geçmişi) güncel bir envanterinin tutulduğunu doğrulayın.
-

@@ -183,7 +183,7 @@ def translate_markdown(proj_code: str, lang_code: str, markdown_path: Path,
     re_exclam = "^(\\!\\[)(.*)$"
     re_bar = "^\\|[^\\|].*$"
     re_id_num = f"^{proj_code}([0-9]+)_"
-    re_special_color = r"^[#]{4}.+([1-3])"
+    re_special_color = r"^[#]{4}.+([1-3一二三])"
 
     basename = os.path.basename(markdown_path)
     assert basename.endswith(".md")
@@ -210,8 +210,18 @@ def translate_markdown(proj_code: str, lang_code: str, markdown_path: Path,
                 if id_num == 1003:
                     matched = re.match(re_special_color, raw_line)
                     if matched:
-                        level_num = int(matched.group(1))
                         # raw_line : "#### Level 1 requirements"
+                        # raw_line : "#### 一级要求"
+                        num_str = matched.group(1)
+                        try:
+                            level_num = int(num_str)
+                        except Exception:
+                            if num_str == "一":
+                                level_num = 1
+                            elif num_str == "二":
+                                level_num = 2
+                            else:
+                                level_num = 3
                         out_str = f">{LEVEL_COLORS[level_num][0]}" + \
                             "|black||||hb  " + raw_line[5:] + "\n"
                         out_fp.write(out_str)

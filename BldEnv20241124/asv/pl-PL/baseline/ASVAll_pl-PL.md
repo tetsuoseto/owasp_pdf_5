@@ -2686,12 +2686,3 @@ Narzędzia do obsługi i weryfikacji danych wprowadzanych przez użytkownika.
 
 ---
 
-## Zarządzanie danymi treningowymi C1 oraz zarządzanie stronniczością
-
-### C1.1 Pochodzenie danych treningowych
-
-Utrzymuj weryfikowalny spis wszystkich zbiorów danych, akceptuj tylko zaufane źródła i rejestruj każdą zmianę dla celów audytu.
-
- #1.1.1    Level: 1    Role: D/V
- Zweryfikuj, czy utrzymywana jest aktualna inwentaryzacja każdego źródła danych treningowych (pochodzenie, opiekun/właściciel, licencja, metoda zbierania, ograniczenia dotyczące zamierzonego użycia oraz historia przetwarzania).
-

@@ -2686,12 +2686,3 @@ Työkalut käyttäjätietojen käsittelyyn ja validointiin.
 
 ---
 
-## C1 Koulutusdatan hallinta ja vinouman hallinta
-
-### C1.1 Koulutusdatan alkuperä
-
-Pidä todennettavissa oleva luettelo kaikista tietoaineistoista, hyväksy vain luotetut lähteet ja kirjaa jokainen muutos auditoinnin mahdollistamiseksi.
-
- #1.1.1    Level: 1    Role: D/V
- Varmista, että ajan tasalla oleva luettelo jokaisesta koulutusdatasta (lähde, vastuuhenkilö/omistaja, lisenssi, keräystapa, käyttötarkoituksen rajoitukset ja käsittelyhistoria) pidetään yllä.
-

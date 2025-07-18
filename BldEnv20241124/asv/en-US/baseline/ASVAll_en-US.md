@@ -2686,12 +2686,3 @@ Tooling to handle and validated user inputs.
 
 ---
 
-## C1 Training Data Governance & Bias Management
-
-### C1.1 Training Data Provenance
-
-Maintain a verifiable inventory of all datasets, accept only trusted sources, and log every change for auditability.
-
- #1.1.1    Level: 1    Role: D/V
- Verify that an up-to-date inventory of every training-data source (origin, steward/owner, licence, collection method, intended use constraints, and processing history) is maintained.
-

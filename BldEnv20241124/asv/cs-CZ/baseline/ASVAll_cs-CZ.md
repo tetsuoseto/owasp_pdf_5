@@ -2686,12 +2686,3 @@ Nástroje pro zpracování a validaci vstupů uživatelů.
 
 ---
 
-## C1 Správa tréninkových dat a řízení zaujatosti
-
-### C1.1 Původ tréninkových dat
-
-Udržujte ověřitelný seznam všech datových sad, přijímejte pouze důvěryhodné zdroje a zaznamenávejte každou změnu pro možnost auditu.
-
- #1.1.1    Level: 1    Role: D/V
- Ověřte, že je vedeno aktuální inventarizační záznamy o každém zdroji tréninkových dat (původ, správce/vlastník, licence, způsob sběru, omezení zamýšleného použití a historie zpracování).
-
