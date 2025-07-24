@@ -179,7 +179,7 @@ def translate_markdown(proj_code: str, lang_code: str, markdown_path: Path,
         line2: str = ">"+level_colors[1]+"|black  "+contents[1]
         return line1, line2
 
-    re_sharp = "^([\\#]+)( [^ ].*)$"
+    re_sharp = "^([\\#]+)( .*)$"
     re_exclam = "^(\\!\\[)(.*)$"
     re_bar = "^\\|[^\\|].*$"
     re_id_num = f"^{proj_code}([0-9]+)_"
