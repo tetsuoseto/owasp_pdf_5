@@ -3,7 +3,9 @@
 
 To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
-1. `git clone` or [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/main.zip) of this repo (owasp_pdf_5) under any directory, e.g., `Playbook`: `~/Playbook`
+1. `git clone` or [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.0.0_poc.zip) of this repo (owasp_pdf_5) under any directory, e.g., `Playbook`: `~/Playbook`
+
+Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see https://github.com/git-lfs/git-lfs for details. Quick alternative is to click "Download ZIP" command under <> Code -> Clone. Please switch the branch to "v5.0.0_poc" first to download the entire content of the v5.0.0_poc branch as owasp_pdf_5-5.0.0-poc.zip (~1.3GB)
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
