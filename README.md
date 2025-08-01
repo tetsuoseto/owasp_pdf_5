@@ -1,5 +1,5 @@
 # OWASP PDF 5 Release Repository
-## OWASP PDF v5.0.0_poc
+## OWASP PDF v5.0.0
 
 To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
@@ -7,8 +7,8 @@ To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 62390759e41c8b3f344a33811971a5022662f6258525fd6df2bd1d9c9427ab81 for Mac, or
-e893f8d1d6042ce678b1a472fc9fd7e813ff5ba5935419eccce0986c516e9e7b for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 3018b434cb02d0bb8b1bc534bf2249b68c7a5aa0fecfb00b761ab04df590f9a5 for Mac, or
+746aa8db20a9e101a96f7d6c516e5cd70773492774acf902a73116e9d191114c for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -22,8 +22,8 @@ e893f8d1d6042ce678b1a472fc9fd7e813ff5ba5935419eccce0986c516e9e7b for Linux
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:62390759e41c8b3f344a33811971a5022662f6258525fd6df2bd1d9c9427ab81  owasp_pdf
-Linux:e893f8d1d6042ce678b1a472fc9fd7e813ff5ba5935419eccce0986c516e9e7b  owasp_pdf
+Mac:3018b434cb02d0bb8b1bc534bf2249b68c7a5aa0fecfb00b761ab04df590f9a5  owasp_pdf
+Linux:746aa8db20a9e101a96f7d6c516e5cd70773492774acf902a73116e9d191114c  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
