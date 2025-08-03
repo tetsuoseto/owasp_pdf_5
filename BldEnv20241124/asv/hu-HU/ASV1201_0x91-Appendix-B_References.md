@@ -1,4 +1,0 @@
-# Függelék B: Hivatkozások
-
-## TODO
-

@@ -1,4 +1,0 @@
-# Liite B: Viitteet
-
-## TODO
-

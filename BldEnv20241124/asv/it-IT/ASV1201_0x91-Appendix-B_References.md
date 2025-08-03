@@ -1,4 +1,0 @@
-# Appendice B: Riferimenti
-
-## TODO
-

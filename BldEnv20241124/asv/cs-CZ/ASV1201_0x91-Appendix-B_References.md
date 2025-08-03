@@ -1,4 +1,0 @@
-# Příloha B: Odkazy
-
-## TODO
-

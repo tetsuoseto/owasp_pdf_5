@@ -1,4 +1,0 @@
-# Dodatek B: Literatura
-
-## TODO
-

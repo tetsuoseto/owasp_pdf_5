@@ -1,4 +1,0 @@
-# Bilaga B: Referenser
-
-## TODO
-

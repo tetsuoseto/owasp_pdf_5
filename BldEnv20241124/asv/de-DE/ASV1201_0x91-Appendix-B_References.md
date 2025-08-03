@@ -1,4 +1,0 @@
-# Anhang B: Literaturverzeichnis
-
-## TODO
-

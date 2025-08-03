@@ -1,4 +1,0 @@
-# Pielikums B: Atsauces
-
-## TODO
-

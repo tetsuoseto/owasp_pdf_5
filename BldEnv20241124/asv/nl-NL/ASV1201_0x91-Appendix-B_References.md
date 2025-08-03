@@ -1,4 +1,0 @@
-# Bijlage B: Referenties
-
-## TODO
-

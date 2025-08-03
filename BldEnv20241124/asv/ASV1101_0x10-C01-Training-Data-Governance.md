@@ -2,7 +2,7 @@
 
 ## Control Objective
 
-Training data must be sourced, handled, and maintained in a way that preserves provenance, security, quality, and fairness. Doing so fulfils legal duties and reduces risks of bias, poisoning, or privacy breaches throughout the AI lifecycle.
+Training data must be sourced, handled, and maintained in a way that preserves provenance, security, quality, and fairness. Doing so fulfils legal duties and reduces risks of bias, poisoning, or privacy breaches that show up during training that could effect the entire AI lifecycle.
 
 ---
 
@@ -23,7 +23,7 @@ Maintain a verifiable inventory of all datasets, accept only trusted sources, an
 
 ## C1.2 Training Data Security & Integrity
 
-Restrict access, encrypt at rest and in transit, and validate integrity to block tampering or theft.
+Restrict access, encrypt at rest and in transit, and validate integrity to block tampering or theft of training data.
 
 | # | Description | Level | Role |
 |:--------:|---------------------------------------------------------------------------------------------------------------------|:---:|:---:|
@@ -37,7 +37,7 @@ Restrict access, encrypt at rest and in transit, and validate integrity to block
 
 ## C1.3 Representation Completeness & Fairness
 
-Detect demographic skews and apply mitigation so the model's error rates are equitable across groups.
+Detect demographic biases and apply mitigation so the model's error rates are fair across groups.
 
 | # | Description | Level | Role |
 |:--------:|---------------------------------------------------------------------------------------------------------------------|:---:|:---:|
@@ -50,7 +50,7 @@ Detect demographic skews and apply mitigation so the model's error rates are equ
 
 ## C1.4 Training Data Labeling Quality, Integrity, and Security
 
-Protect labels with encryption and require dual review for critical classes.
+Protect labels and require technical review for critical data.
 
 | # | Description | Level | Role |
 |:--------:|---------------------------------------------------------------------------------------------------------------------|:---:|:---:|
@@ -91,6 +91,8 @@ Apply statistical anomaly detection and quarantine workflows to stop adversarial
 | **1.6.4** | **Verify that** detection logic is refreshed with new threat intel. | 3 | D/V |
 | **1.6.5** | **Verify that** online-learning pipelines monitor distribution drift. | 3 | D/V |
 | **1.6.6** | **Verify that** specific defenses against known data poisoning attack types (e.g., label flipping, backdoor trigger insertion, influential instance attacks) are considered and implemented based on the system's risk profile and data sources. | 3 | D/V |
+| **1.6.7** | **Verify that** LLM training and fine-tuning pipelines implement controls to detect and mitigate adversarial free-text prompt contamination risks (such as embedded jailbreak instructions, role-switching commands, universal triggers), using a combination of automated detection techniques and manual review. | 3 | D/V |
+
 
 ---
 

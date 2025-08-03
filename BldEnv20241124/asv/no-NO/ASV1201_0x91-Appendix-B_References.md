@@ -1,4 +1,0 @@
-# Vedlegg B: Referanser
-
-## TODO
-

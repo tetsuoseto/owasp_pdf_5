@@ -1,4 +1,0 @@
-# Lampiran B: Rujukan
-
-## TODO
-

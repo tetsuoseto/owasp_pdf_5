@@ -103,11 +103,12 @@ def _set_lang_specific_fields(cs: Dict[str, Any], lang:str):
         "",
         "",
         "",
-        "July 4th, 2025",
-        "Commit e39cd97"
+        "July 16th, 2025",
+        "Commit 4e19b41"
     ]
     cs["doc_revision_history"] = [
         "    2025-07-04  1.0  Tetsuo Seto  Initial Draft",
+        "    2025-08-02  1.1  Tetsuo Seto  Update for v5.0.0 PoC Beta",
     ]
     cs["doc_toc_contents_title"] = "Table of Contents"
     cs["doc_toc_figures_title"] = "Figures"
