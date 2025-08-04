@@ -43,7 +43,7 @@ $ ./owasp_pdf -y -l ASV_en-US
 ## Machine Translation with OWASP PDF 5
 
 1. Get access to Ubuntu on your local linux box or Ubuntu instance on cloud. Tested on Ubuntu Desktop 24.04.2 LTS.  Should work on cloud as well.
-2. Get API key of OpenAI Platform. Buy $5 or $10 credit initially. We use GPT-4.1-nano($0.10 / 1M input tokens) or GPT-4.1-mini($0.40 / 1M input tokens). One ASV language round costs 25 cents or less.
+2. Get API key of OpenAI Platform and set it to env.variable:TRANSLATE_ACCESS_KEY. Buy $5 or $10 credit initially. We use GPT-4.1-nano($0.10 / 1M input tokens) or GPT-4.1-mini($0.40 / 1M input tokens). One ASV language round costs 25 cents or less.
 3. When you install OWASP PDF 5, easiest is [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.0.0_poc.zip) -- the owasp_pdf_5-5.0.0_poc.zip (~600MB) contains everything you need. If you have git-lfs installed, 'git clone' also works. Follow the OWASP PDF v5.0.0 Installation steps and verify the installation.
 4. Pick your language, e.g, de-DE and run the ./owasp_pdf command with `--mt gpt-4.1-nano` option.
 
