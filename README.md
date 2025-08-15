@@ -10,8 +10,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 7afb0534a1526cd0e34a310bf3ea3e2e787c02205463f02d53f24bd8ebd6a3bb for Mac, or
-0e85867d718a3a768a825b452c58b177978f11185fb8cd1b5737de46028dce89 for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match bf843acaa9aab48514110bbb202ecb4bca074365886769cd2f57ed5f9a98c50a for Mac, or
+fbe47467c3be4431251be42825effc4ecd2163b43bcfea314544a8414bbb2b3e for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -25,8 +25,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:7afb0534a1526cd0e34a310bf3ea3e2e787c02205463f02d53f24bd8ebd6a3bb  owasp_pdf
-Linux:0e85867d718a3a768a825b452c58b177978f11185fb8cd1b5737de46028dce89  owasp_pdf
+Mac:bf843acaa9aab48514110bbb202ecb4bca074365886769cd2f57ed5f9a98c50a  owasp_pdf
+Linux:fbe47467c3be4431251be42825effc4ecd2163b43bcfea314544a8414bbb2b3e  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
@@ -96,4 +96,9 @@ $ ./owasp_pdf --mt gpt-4.1-nano -e -l ASV_en-US -y
 Run English Grammar and Spell Check, Machine Translate All the Registered Languages, then Build PDFs with Auto-Hyphenation. Note that grammar/spell check of US English MD files is done first, then machine translate non-English languages.
 ```
 $ ./owasp_pdf --mt gpt-4.1-mini -e -a ASV -y
+```
+#### Build PDF from pre-translated MD files (-x)
+If '--mt' is also specified, '-x' has precedence; MT won't be done.
+```
+$ ./owasp_pdf -l ASV_de-DE -x
 ```
