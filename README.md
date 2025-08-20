@@ -10,8 +10,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 4734c2fc932ebf224f73f9280500a524c8833a9f343ea9819130481ba9f3df3f for Mac, or
-c7b6420228071d436eec9ebcf905d7a6d6d4068890119d278dafd55f8df9bd91 for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 400492672fa7856b08150009bdefec11e457c072eafdef3e05758adeedd2f7e2 for Mac, or
+6d248c8128ce227f580d494ad66bab53105d8a2dea710a7b68bf19a194382e95 for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -25,8 +25,8 @@ c7b6420228071d436eec9ebcf905d7a6d6d4068890119d278dafd55f8df9bd91 for Linux
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:4734c2fc932ebf224f73f9280500a524c8833a9f343ea9819130481ba9f3df3f  owasp_pdf
-Linux:c7b6420228071d436eec9ebcf905d7a6d6d4068890119d278dafd55f8df9bd91  owasp_pdf
+Mac:400492672fa7856b08150009bdefec11e457c072eafdef3e05758adeedd2f7e2  owasp_pdf
+Linux:6d248c8128ce227f580d494ad66bab53105d8a2dea710a7b68bf19a194382e95  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
