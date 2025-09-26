@@ -10,8 +10,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match c8b3bd9350fe3ea812218d2deb9aa8c06f2d75cb703c7cbb1dac7ac043b2bea3 for Mac, or
-69c8e48d0b3865b81ffec7f3c9fb0780901ad6acac2ada3068667fab38683698 for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match efd1eb6e3eb1e0c078f3de0925944adf3dc2332248c200495fbd0fc6a76c34c2 for Mac, or
+c21da85efc1aeb5de6c5c161f76384d2792892239f5eefb8dfe82210a4bcbeb2 for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -25,8 +25,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:c8b3bd9350fe3ea812218d2deb9aa8c06f2d75cb703c7cbb1dac7ac043b2bea3  owasp_pdf
-Linux:69c8e48d0b3865b81ffec7f3c9fb0780901ad6acac2ada3068667fab38683698  owasp_pdf
+Mac:efd1eb6e3eb1e0c078f3de0925944adf3dc2332248c200495fbd0fc6a76c34c2  owasp_pdf
+Linux:c21da85efc1aeb5de6c5c161f76384d2792892239f5eefb8dfe82210a4bcbeb2  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
@@ -43,7 +43,7 @@ $ ./owasp_pdf -y -l ASV_en-US
 ## Machine Translation with OWASP PDF 5
 
 1. Get access to Ubuntu on your local linux box or Ubuntu instance on cloud. Tested on Ubuntu Desktop 24.04.2 LTS.  Should work on cloud as well.
-2. Get API key of OpenAI Platform and set it to env.variable:TRANSLATE_ACCESS_KEY. Buy $5 or $10 credit initially. We use GPT-4.1 or GPT-5. One ASV language round costs 25 cents or less.
+2. Get API key of OpenAI Platform and set it to env.variable:TRANSLATE_ACCESS_KEY. Buy $5 or $10 credit initially. We use GPT-4.1 or GPT-5. One ASV language round costs 40 cents or less.
 3. When you install OWASP PDF 5, easiest is [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.0.0_poc.zip) -- the owasp_pdf_5-5.0.0_poc.zip (~600MB) contains everything you need. If you have git-lfs installed, 'git clone' also works. Follow the OWASP PDF v5.0.0 Installation steps and verify the installation.
 4. Pick your language, e.g, de-DE and run the ./owasp_pdf command with `--mt gpt-4.1-nano` option.
 
