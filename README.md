@@ -10,8 +10,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match efd1eb6e3eb1e0c078f3de0925944adf3dc2332248c200495fbd0fc6a76c34c2 for Mac, or
-c21da85efc1aeb5de6c5c161f76384d2792892239f5eefb8dfe82210a4bcbeb2 for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 740fdb850dea66092084d6353c9f76a883334f11f7657788ce3ec807cdec3561 for Mac, or
+3c3d48f3489b35b42b184b2c3afa7676e1f18cb29112453883b96e7d181e8edb for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -25,8 +25,8 @@ c21da85efc1aeb5de6c5c161f76384d2792892239f5eefb8dfe82210a4bcbeb2 for Linux
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:efd1eb6e3eb1e0c078f3de0925944adf3dc2332248c200495fbd0fc6a76c34c2  owasp_pdf
-Linux:c21da85efc1aeb5de6c5c161f76384d2792892239f5eefb8dfe82210a4bcbeb2  owasp_pdf
+Mac:740fdb850dea66092084d6353c9f76a883334f11f7657788ce3ec807cdec3561  owasp_pdf
+Linux:3c3d48f3489b35b42b184b2c3afa7676e1f18cb29112453883b96e7d181e8edb  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
@@ -84,18 +84,18 @@ $ ./owasp_pdf -a ASV
 ```
 $ ./owasp_pdf --mt gpt-4.1-nano -l ASV_de-DE
 ```
-#### Run English Grammar and Spell Check, then Build PDF (--mt, -e)
+#### Run English Grammar and Spell Check, then Build PDF (--mt)
 ```
-$ ./owasp_pdf --mt gpt-4.1-nano -e -l ASV_en-US
+$ ./owasp_pdf --mt gpt-4.1-nano -l ASV_en-US
 ```
-#### Run English Grammar and Spell Check, then Build PDF with Auto-Hyphenation (--mt, -e, -y)
+#### Run English Grammar and Spell Check, then Build PDF with Auto-Hyphenation (--mt,-y)
 ```
-$ ./owasp_pdf --mt gpt-4.1-nano -e -l ASV_en-US -y
+$ ./owasp_pdf --mt gpt-4.1-nano -l ASV_en-US -y
 ```
-#### Full Fledged Build (--mt, -e, -y, -a)
+#### Full Fledged Build (--mt, -y, -a)
 Run English Grammar and Spell Check, Machine Translate All the Registered Languages, then Build PDFs with Auto-Hyphenation. Note that grammar/spell check of US English MD files is done first, then machine translate non-English languages.
 ```
-$ ./owasp_pdf --mt gpt-4.1-mini -e -a ASV -y
+$ ./owasp_pdf --mt gpt-4.1-mini -a ASV -y
 ```
 #### Build PDF from pre-translated MD files (-x)
 If '--mt' is also specified, '-x' has precedence; MT won't be done.
