@@ -6,12 +6,12 @@ To install OWASP PDF 5.0.0 executable on your Mac or Linux
 
 1. `git clone` or [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.0.0_poc.zip) of this repo (owasp_pdf_5) under any directory, e.g., `Playbook`: `~/Playbook`
 
-Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see https://github.com/git-lfs/git-lfs for details. Quick alternative is to click "Download ZIP" command under <> Code -> Clone. Please switch the branch to "v5.0.0_poc" first to download the entire content of the v5.0.0_poc branch as owasp_pdf_5-5.0.0_poc.zip (~600MB)
+Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see https://github.com/git-lfs/git-lfs for details. Quick alternative is to click "Download ZIP" command under <> Code -> Clone. (~600MB)
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
-3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match 9afdbc6b88b7f3e524cb7322990bb05f347da2fc555bb20021133eae7a8d91f4 for Mac, or
-2de2962c1b31b05ec2cb083115a22db4dbb8877044478b8f2dcf9f80c64e0627 for Linux
+3. Open terminal window, `cd` to `~/Playbook/owasp_pdf_5/<platform>` directory and run `shasum -a 256 owasp_pdf` to calculate the sha256 hash code of `owasp_pdf` executable. It should match ab76818e22b4120b0dc95e3ca93debfd35517a4f04214678da1ff75f314b261b for Mac, or
+a6e53c65bf2bd0fd2720ce9a1cd5a693f354325903b829467aa3de176624ac5e for Linux
 
 4. Copy `owasp_pdf` executable file to `~/Playbook/owasp_pdf_5/BldEnv20241124`
 
@@ -25,8 +25,8 @@ Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see 
 ```
 $ cd ~/Playbook/owasp_pdf_5/<platform>
 $ shasum -a 256 owasp_pdf
-Mac:9afdbc6b88b7f3e524cb7322990bb05f347da2fc555bb20021133eae7a8d91f4  owasp_pdf
-Linux:2de2962c1b31b05ec2cb083115a22db4dbb8877044478b8f2dcf9f80c64e0627  owasp_pdf
+Mac:ab76818e22b4120b0dc95e3ca93debfd35517a4f04214678da1ff75f314b261b  owasp_pdf
+Linux:a6e53c65bf2bd0fd2720ce9a1cd5a693f354325903b829467aa3de176624ac5e  owasp_pdf
 $ cp owasp_pdf ~/Playbook/owasp_pdf_5/BldEnv20241124/
 $ cd ~/Playbook/owasp_pdf_5/BldEnv20241124
 $ ./owasp_pdf -v
