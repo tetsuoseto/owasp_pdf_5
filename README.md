@@ -4,9 +4,9 @@
 
 To install OWASP PDF 5.1.0 executable on your Mac or Linux
 
-1. `git clone` or [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.1.0_poc.zip) of this repo (owasp_pdf_5) under any directory, e.g., `Playbook`: `~/Playbook`
+1. `git clone` or [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/main.zip) of this repo (owasp_pdf_5) under any directory, e.g., `Playbook`: `~/Playbook`
 
-Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see https://github.com/git-lfs/git-lfs for details. Quick alternative is to click "Download ZIP" command under <> Code -> Clone. (~600MB)
+Note that git-lfs is required to 'git clone' OWASP PDF 5 repository. Please see https://github.com/git-lfs/git-lfs for details. Quick alternative is to click "Download ZIP" command under <> Code. The zip file size is ~600MB.
 
 2. Double Click darwin.zip for Mac or linux.zip for Linux to decompress it to `~/Playbook/owasp_pdf_5/darwin` or `~/Playbook/owasp_pdf_5/linux` folder
 
@@ -44,17 +44,17 @@ $ ./owasp_pdf -y -l ASV_en-US
 
 1. Get access to Ubuntu on your local linux box or Ubuntu instance on cloud. Tested on Ubuntu Desktop 24.04.2 LTS.  Should work on cloud as well.
 2. Get API key of OpenAI Platform and set it to env.variable:TRANSLATE_ACCESS_KEY. Buy $5 or $10 credit initially. We use GPT-4.1 or GPT-5. One ASV language round costs 40 cents or less.
-3. When you install OWASP PDF 5, easiest is [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/v5.1.0_poc.zip) -- the owasp_pdf_5-5.1.0_poc.zip (~600MB) contains everything you need. If you have git-lfs installed, 'git clone' also works. Follow the OWASP PDF v5.1.0 Installation steps and verify the installation.
+3. When you install OWASP PDF 5, easiest is [Download ZIP](https://github.com/tetsuoseto/owasp_pdf_5/archive/refs/heads/main.zip) -- owasp_pdf_5-main.zip (~600MB) contains everything you need. If you have git-lfs installed, 'git clone' also works.
 4. Pick your language, e.g, de-DE and run the ./owasp_pdf command with `--mt gpt-4.1-nano` option.
 
 ```
-$ cd ~/Playbook/owasp_pdf_5-5.1.0/BldEnv2024112
+$ cd ~/Playbook/owasp_pdf_5/BldEnv2024112
 $ ./owasp_pdf --mt gpt-4.1-nano -y -l ASV_de-DE
 *** Initializing owasp_pdf build environment...
 *** Loaded 'owasp_pdf_register_ASV_plugin'
 *** Processing ASV_de-DE
-        2,688 lines written to ~/Playbook/owasp_pdf_5-5.1.0/BldEnv20241124/asv/de-DE/baseline/ASVAll_de-DE.md
-        94 page PDF created on ~/Playbook/owasp_pdf_5-5.1.0/BldEnv20241124/asv/de-DE/baseline/ASVAll_de-DE.pdf
+        2,688 lines written to ~/Playbook/owasp_pdf_5/BldEnv20241124/asv/de-DE/baseline/ASVAll_de-DE.md
+        94 page PDF created on ~/Playbook/owasp_pdf_5/BldEnv20241124/asv/de-DE/baseline/ASVAll_de-DE.pdf
     Processing time: 1,116 seconds
 ```
 
